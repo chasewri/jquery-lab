@@ -45,6 +45,5 @@ $('#add').on('click', function(e) {
       let text = $this.first().text();
       localStorage.removeItem(text);
       $(this).remove();
-      $(this).remove();
     });
   });
