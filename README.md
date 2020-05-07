@@ -21,4 +21,4 @@ CSS framework is UIkit.
 - jQuery
 
 ## Site
-The site is hosted on Surge [here](scattered-quicksand.surge.sh).
+The site is hosted on Surge [here](http://scattered-quicksand.surge.sh).
