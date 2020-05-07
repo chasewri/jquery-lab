@@ -2,12 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo list not a developer skills list</title>
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script defer src="./js/main.js"></script>
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+    <script defer src="js/main.js"></script>
   </head>
   <body>
-
+    <div class="uk-container uk-container-small">
+    <table class="uk-table uk-table-divider">
+        <thead class="gray">
+                <th class="uk-width-large">Tasks to do</th>
+                <th class="uk-width-small">Add/Remove task</th>
+        </thead>
+        <tbody class="plum center">
+            <tr class="remove">
+                <td>My tasks for today include ... </td>
+                <td><button class="uk-button uk-button-default remove" type="button">
+                  <a href="#" class="uk-icon-link" uk-icon="icon: trash"></a></button></td>
+            </tr>
+            <tr id="here">
+              <td>Add a another task here: <br>  <input type="text" name="Add more!" value="" autofocus></td>
+              <td><button id="add" class="uk-button uk-button-default white" type="button">
+                <a href="" class="uk-icon-link" uk-icon="icon: plus-circle; ratio: 1.5"></a></button></td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
   </body>
 </html>

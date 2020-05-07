@@ -1,0 +1,30 @@
+body {
+  background-color: lightgray;
+  height: 150vh;
+  margin: 0;
+}
+.plum {
+  background-color: plum;
+}
+.white {
+  background-color: white;
+}
+.gray {
+  background-color: lightgray;
+}
+.dimgray {
+  background-color: dimgray;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+/* @media screen and (min-width: 750) {
+  body{
+    display: flex;
+    align-items: center;
+  }
+  table {
+    width: 60%;
+  }
+} */
